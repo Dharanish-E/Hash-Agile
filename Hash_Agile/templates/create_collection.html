@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Collection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Create a New Employee Collection</h1>
+        <form method="POST">
+            <label for="collection_name">Collection Name:</label>
+            <input type="text" name="collection_name" required>
+            <input type="submit" value="Create Collection">
+        </form>
+        <a href="/">Back to Home</a>
+    </div>
+</body>
+</html>
